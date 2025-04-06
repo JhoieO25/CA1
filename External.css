@@ -1,0 +1,243 @@
+/*Making the website more responsive for mobile view*/
+
+@media screen and (max-width: 600px) {
+
+    .Nav {
+        flex-direction: column;
+    }
+	
+	.Log {
+        max-width: 80%;
+    }
+
+    .center header h1 {
+        font-size: 4rem;
+    }
+	
+	#X h1{
+		font-size: 4rem;
+	}
+	
+	.center header p {
+        font-size: 1.3rem;
+		padding-top: 35px;
+    }
+	.center h3 {
+        font-size: 1.5rem;
+    }
+
+    .center ul li {
+        font-size: 1.3rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+	
+	.Navig {
+        flex-direction: column;
+    }
+}
+
+/* Styling index.html*/
+body{
+	background-color: #f68712;
+	background-size: 100% 50%;
+	background-position: top center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.pag1, .pag3 {
+	background-image: url(IMG/img3.jpeg);
+}
+
+p, h3, li, td {
+	color: #333333;
+	font-size: 20px;
+}
+
+.Nav a {
+  float: right;
+  color: #f68712;
+  text-align: center;
+  padding: 14px 16px;
+  flex-wrap: wrap;
+  text-decoration: none; 
+  font-size: 18px;
+  padding-right: 100px;
+  border: 2px solid #333333;
+}
+
+.Log{ width:120px;
+		height:80px;
+		padding-left: 150px;
+		padding-top: 100px;
+}
+
+header {
+  display: block;
+}
+
+h1{
+	font-family: 'Berkshire Swash';
+	color: #f68712;
+	font-size: 120px;
+	padding-left: 80px;
+	margin-top: -10px;
+}
+
+.Adjust{
+	padding-top: 80px;
+}
+
+.center{
+	padding-left: 200px;
+}
+
+
+/*Styling for contact table*/
+.restab table{
+	overflow-x:auto;
+}
+td{
+	border: 2px solid black;
+}
+
+
+/* Styling the Destination page*/
+.Navig a{
+	color: #333333;
+	float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-size: 18px;
+  padding-right: 100px;
+  border: 2px solid #333333;
+}
+
+.pag2 {
+	background-color: #f68712;
+	background-image:url("IMG/img3.jpeg");
+	background-size: 100% 50%;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+#shift {
+	text-align: center;
+	margin-top: -80px;
+}
+
+#X{
+	color:#333333;
+	font-family: 'Berkshire Swash';
+	font-size: 120px;
+	padding-left: 280px;
+	margin-top: -10px;
+}
+
+.foot{
+	color: #f68712;
+}
+
+/* Styling image and hover-fade in effect*/
+.img-size {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+	padding-top: 0
+}
+
+.img-box {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+    overflow: hidden; 
+    border-radius: 8px; 
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  #00000080;
+	font-family: 'Audiowide' ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+    border-radius: 8px; 
+}
+
+.img-box:hover .text {
+    opacity: 1; 
+}
+
+
+/*Styling BookTrip.html*/
+
+#paragraph{
+	color: white;
+}
+
+input[type=text],input[type=tel], input[type=email],input[type=submit],select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #df9204;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.require::after{
+	content:'*';
+	color: #f68712;
+}
+
+input[type=submit] {
+  background-color: #333333;
+  color: white;
+  font-size: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #f68712;
+}
+
+.align {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px; 
+}
+  
+.Shift {
+	padding-left: 100px;
+}
+
+#Dodg {
+	color: dodgerblue;
+}
