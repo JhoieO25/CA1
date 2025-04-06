@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <title>BookTrip@Xplore</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial scale=1.0">
+		<link rel="Stylesheet" href="External.css">
+
+</head>
+
+<body class="pag3">
+		<!--Logo-->
+	<a href="index.html"> <img class="Log" src="IMG/img2.png" alt="company logo"> </a>
+
+		<div class="Nav">
+		<!--Navigation Bar-->
+	<a href="#" class="navi"> <b> FAQ </b></a>		
+	<a href="BookTrip.html" class="navi"> <b> BOOK A TRIP </b> </a>
+	<a href="Destination.html" class="navi"> <b> TRIPS </b> </a>
+	<a href="index.html" class="navi"> <b> HOME </b> </a>
+		</div>
+	
+	<h2>Let’s Make Your Dream Trip Happen! Book Now!!!</h2>
+	<p id="paragraph">Trusted by many as we offer expertly curated trips,insider knowledge and unparalleled services. Where will your wanderlust take you?!</p>
+	
+	
+	<!--Creating the form layout -->
+	<form class="align">
+		<label class="require"> FULL NAME: </label>
+			<input type="text" maxlength="40" required> <br>
+		<label for="phone" class="require"> PHONE NUMBER:</label>
+			<input type="tel" id="phone" name="phone" placeholder="+353 456-678-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{4}"  required><br><br>
+		<label class="require"> EMAIL:</label>	
+			<input type="email" required> <br>
+		<label class="require">NATIONALITY: </label>	
+			<input type="text" required> <br>
+		<label> Where would you like to go? </label>
+			<select id="country" name="country">
+				<option value="select">Select Country</option>
+				<option value="portugal">Maldives</option>
+				<option value="maldives">Portugal</option>
+				<option value="morocco">Morocco</option>
+				<option value="ireland">Ireland</option>
+				<option value="others">Others</option>
+				<option value="special"> Special services</option>
+			</select> <br>
+		
+		<label> PAYMENT METHOD: </label>	
+			<input type="radio" id="card" name="fav_language" value="card" class="Shift"> 
+		<label for="card"> Credit/Debit Card</label>	
+			<input type="radio" id="pay" name="fav_language" value="pay" class="Shift"> 
+	    <label for="pay"> Google/Apple Pay </label>
+			<input type="radio" id="bank" name="fav_language" value="bank" class="Shift"> 
+		<label for="bank"> Bank Transfer </label>	
+			<input type="radio" id="cry" name="fav_language" value="cry" class="Shift"> 
+	    <label for="cry"> Cryptocurrency </label> <br><br>
+		
+		<label for="subject">SPECIAL REQUEST:</label> <br>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+		
+		<p>Please read our <a href="#" id="Dodg"> refund and booking policy </a> </p>
+			<input type="checkbox" id="agree" name="fav_language value="agree" required>
+		<label for="agree"> Agree to Terms and Conditions</label> <br>
+		
+		<input type="checkbox" id="news" name="fav_language value="news">
+		<label for="news"> Subscribe to monthly newsletters.</label>	<br><br>
+	
+	<input type="submit" value="BOOK">
+	</form>
+	
+	<footer> <b> &reg Xplore</b>  All rights reserved.  </footer>
+	
+</body>
+</html>	
